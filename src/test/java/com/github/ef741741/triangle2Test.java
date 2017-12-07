@@ -10,7 +10,7 @@ public class triangle2Test {
         triangle triang = new triangle(5, 10, 5);
 
         // Act
-        String result = triangle.getType();
+        String result = triang.getType();
 
         // Assert
         Assert.assertEquals("不是三角形", result);
